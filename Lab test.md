@@ -98,14 +98,14 @@ These tests are meant for routine diagnosis, disease surveillance, and preventiv
 | 13 | Haematology | Blood grouping and Rh typing | EDTA whole blood | Manual |http://snomed.info/sct/269826008  |https://loinc.org/882-1/|Categorical |Reported as Blood Group & Rh Factor (e.g., A+, O−, AB+)|
 | 14 | Haematology | Sickle cell disease test* | EDTA whole blood | Screening: Sickling/sol |http://snomed.info/sct/314090007 |https://loinc.org/801-1/|Binary ||Positive / Negative
 | 15 |Haematology |🟦 Reduction test for screening G6PD deficiency* |EDTA whole blood |Sample to be collected andsent to DH for qualitative visual method|http://snomed.info/sct/9024005 |https://loinc.org/2359-8/|Binary||Positive / Negative
-| 16 | Clinical Pathology | Urine albumin and sugar | Urine | Strip method (Reading Manual or with a urine analyzer) | - |https://loinc.org/1754-1/|Semi-Quantitative (Categorical value based on color change) |mg/dL (milligrams per deciliter)|
-| 17 | Clinical Pathology | Haemoglobin | Urine | Strip method (Reading Manual or with an analyser) | - | -|
-| 18 | Clinical Pathology | Bile salts | Urine | Strip method (Reading Manual or with an analyser) | - | -|
+| 16 | Clinical Pathology | Urine albumin and sugar | Urine | Strip method (Reading Manual or with a urine analyzer) | http://snomed.info/sct/268556000  |https://loinc.org/1754-1/|Semi-Quantitative (Categorical value based on color change) |mg/dL (milligrams per deciliter)|
+| 17 | Clinical Pathology | Haemoglobin | Urine | Strip method (Reading Manual or with an analyser) | http://snomed.info/sct/275714003 | -|
+| 18 | Clinical Pathology | Bile salts | Urine | Strip method (Reading Manual or with an analyser) | http://snomed.info/sct/167517009 | -|
 | 19 | Clinical Pathology | Bile pigments | Urine | Strip method (Reading Manual or with an analyser) | - | -|
-| 20 | Clinical Pathology | Ketone bodies | Urine | Strip method (Reading Manual or with an analyser) | - | -|
-| 21 | Clinical Pathology | Specific gravity | Urine | Strip method (Reading Manual or with an analyser) | - | -|
-| 22 | Clinical Pathology | Reaction (pH)  | Urine | Strip method (Reading Manual or with an analyser) | - | -|
-| 23 | Clinical Pathology | Leucocyte esterase | Urine | Strip method (Reading Manual or with an analyser) | - | -|
+| 20 | Clinical Pathology | Ketone bodies | Urine | Strip method (Reading Manual or with an analyser) | http://snomed.info/sct/47615003 | -|
+| 21 | Clinical Pathology | Specific gravity | Urine | Strip method (Reading Manual or with an analyser) | http://snomed.info/sct/20501000 | -|
+| 22 | Clinical Pathology | Reaction (pH)  | Urine | Strip method (Reading Manual or with an analyser) | http://snomed.info/sct/167305006 | -|
+| 23 | Clinical Pathology | Leucocyte esterase | Urine | Strip method (Reading Manual or with an analyser) | http://snomed.info/sct/252385000 | -|
 | 24 | Clinical Pathology | Urine microscopy | Urine | Microscopy |http://snomed.info/sct/127800008 |https://loinc.org/24356-8/
 | 25 | Clinical Pathology | Vaginal smear for presence of sperms (Medico Legal Case) | Vaginal smear | Microscopy |http://snomed.info/sct/168468008 |https://loinc.org/19763-2/ |Binary || Presence/Absence|
 | 26 | Clinical Pathology |🟦 Pap smear | Cervical smear | Sample to be sent to DH and above for microscopy |http://snomed.info/sct/119252009 |https://loinc.org/86662-4/ | Qualitative || Normal/Abnormal| 
