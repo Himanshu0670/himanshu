@@ -83,12 +83,12 @@ These tests are meant for routine diagnosis, disease surveillance, and preventiv
 
 | S.No | Test Category | Diagnostic test | Specimen type | Equipment used for test |SNOMED CT Code|LOINC code | Type of value |Unit|Range value
 |------|--------------|----------------|---------------|-------------------------|-----|----|----|---|----|
-| 1 | Haematology | Haemoglobin | Capillary blood/ EDTA Whole blood | Digital haemoglobinometer |http://snomed.info/sct/38082009 |https://loinc.org/718-7/| Numerical | `g/dL` | 
+| 1 | Haematology | Haemoglobin | Capillary blood/ EDTA Whole blood | Digital haemoglobinometer |http://snomed.info/sct/302199004 |https://loinc.org/718-7/| Numerical | `g/dL` | 
 | 2 | Haematology | RBC count#| EDTA whole blood | Microscopy |http://snomed.info/sct/14089001 |https://loinc.org/789-8/| Numerical  | Million per microlitre (`million/µL`) |
 | 3 | Haematology | Reticulocyte count# | EDTA whole blood | Microscopy |http://snomed.info/sct/45995003 |https://loinc.org/17849-1/| Numerical | `10⁹/L` (billion per liter) – SI unit |
 | 4 | Haematology | Absolute eosinophil count# | EDTA whole blood | Microscopy |http://snomed.info/sct/71960002 |https://loinc.org/711-2/| Numerical  |`10⁹/L` (billion per liter) → SI unit (common in Asia & Europe)|
 | 5 | Haematology | Total leucocyte count# | EDTA whole blood | Microscopy |http://snomed.info/sct/165507003 |https://loinc.org/26464-8/| Numerical  |`10⁹/L` (billion per liter) – SI unit (common in Asia & Europe)|
-| 6 | Haematology | Differential leucocyte count# | EDTA whole blood | Microscopy |  -  |https://loinc.org/26464-8/| Numerical |`10⁹/L` (billion per liter) – SI unit (common in Asia & Europe)|
+| 6 | Haematology | Differential leucocyte count# | EDTA whole blood | Microscopy | http://snomed.info/sct/165512002 |https://loinc.org/26464-8/| Numerical |`10⁹/L` (billion per liter) – SI unit (common in Asia & Europe)|
 | 7 | Haematology | Platelet count# | EDTA whole blood | Microscopy |http://snomed.info/sct/61928009|https://loinc.org/777-3/| Numerical  |`10⁹/L` (billion per liter) – SI unit (common in Asia & Europe)|
 | 8 | Haematology |🟦 CBC | EDTA whole blood | Sample to be collected & sent to nearest hub lab for analyser |http://snomed.info/sct/26604007 |https://loinc.org/58410-2/ | Quantitative	|RBC count, Hb (g/dL), MCV, Reticulocyte count|
 | 9 | Haematology | ESR# | EDTA whole blood | Manual/ ESR analyser (sample to be sent to nearest hub lab) |http://snomed.info/sct/416838001 |https://loinc.org/30341-2/| Numerical  | Millimeters per hour (mm/hr or mm/h) → Used globally
@@ -128,29 +128,29 @@ These tests are meant for routine diagnosis, disease surveillance, and preventiv
 | 43 | Biochemistry |🟦 TSH (including for newborn screening) | Serum | Sample to be collected and sent to DH for Chemiluminescence analyzer |http://snomed.info/sct/166362002 |https://loinc.org/54077-3/panel | Numerical | `µIU/mL` or `mIU/L` |
 | 44 | Microbiology | Smear for RTI/STDs | Representative sample | Wet mounting, gram stainingmicroscope | - |-| | |
 | 45 | Microbiology | Urine M/E for pus cells | Urine | Microscopy |http://snomed.info/sct/144593007 |https://loinc.org/24365-9/ | Numerical | Cells per High Power Field (HPF) |
-| 46 | Microbiology | Smear examination for Leprosy | Slit skin smear | Microscopy |- | -|
+| 46 | Microbiology | Smear examination for Leprosy | Slit skin smear | Microscopy | http://snomed.info/sct/85558005 | -|
 | 47 | Microbiology | Gram staining for clinical specimen | Pus | Microscopy | - |https://loinc.org/LP6301-8/ |
 | 48 | Microbiology | Throat swab for Diphtheria | Throat swab | Microscopy | - |
 | 49 | Microbiology | Hanging drop test for V. cholera | Stool | Microscopy | - |https://loinc.org/82200-7/ | Binary ||Present / Absent|
-| 50 | Microbiology | Stool routine examination including ova and parasite | Stool | Microscopy | - |https://loinc.org/10704-5/
-| 51 | Microbiology | Stool for occult blood | Stool | Manual | - |https://loinc.org/50196-5/ | Binary || Positive/Negative|
-| 52 | Microbiology | RPR Card test for syphilis | Serum | RDT | - |https://loinc.org/LP70657-9/ |Binary || Positive/Negative|
+| 50 | Microbiology | Stool routine examination including ova and parasite | Stool | Microscopy | http://snomed.info/sct/104223001 |https://loinc.org/10704-5/
+| 51 | Microbiology | Stool for occult blood | Stool | Manual | http://snomed.info/sct/442563002 |https://loinc.org/50196-5/ | Binary || Positive/Negative|
+| 52 | Microbiology | RPR Card test for syphilis | Serum | RDT | http://snomed.info/sct/40675008 |https://loinc.org/LP70657-9/ |Binary || Positive/Negative|
 | 53 | Microbiology | rK39 test for Kala-Azar* | Serum | RDT | - || Binary || Positive/Negative|
 | 54 | Other diagnostic tests | Visual Inspection acetic acid | Visual examination using vaginal speculum | Vaginal speculum |http://snomed.info/sct/252689003 ||Binary || Positive/Negative|
 | 55 | Other diagnostic tests | Water quality testing | Water | H2S strip test kit | - ||Quantitative (Continuous) | °C (Celsius) or °F (Fahrenheit)|	
 | 56 | Other diagnostic tests | Estimation of residual chlorine in drinking water | Water | Kit based on ortho-toluidine reagent | - || Numerical | `mg/L` (milligrams per liter) or `ppm` (parts per million)|
 | 57 | Malaria | Peripheral smear for malaria parasite detection | Capillary blood | Microscopy |http://snomed.info/sct/409081008 |https://loinc.org/LL2041-3/ | Quantitative & Qualitative | Parasites per `µL` of blood |
-| 58 | Malaria | Antigen based bivalent RDT for malaria | Whole blood | RDT| - | https://loinc.org/LL2041-3/ | Binary || Positive/Negative
+| 58 | Malaria | Antigen based bivalent RDT for malaria | Whole blood | RDT| http://snomed.info/sct/407727009 | https://loinc.org/LL2041-3/ | Binary || Positive/Negative
 | 59 | Filariasis* | Peripheral blood smear for filarial parasite detection (Thick smear) | Capillary blood | Microscopy |http://snomed.info/sct/148366001 |https://loinc.org/10663-3/ | Qualitative & Quantitative	| Microfilariae per `mL` of blood |
 | 60 | Dengue |🟦 NS1 antigen | Serum | Sample to be collected and sent to DH for ELISA | - |https://loinc.org/75377-2/ | Binary | | Positive/Negative|
-| 61 | Dengue |🟦 IgM antibody based test | Serum | Sample to be collected and sent to DH for ELISA | - |https://loinc.org/75377-2/ | Qualitative & Semi-Quantitative | Optical Density (OD) ratio|
-| 62 | Japanese encephalitis* |🟦 Sample collection  | Serum | Sample to be collected and sent to DH for ELISA | - |https://loinc.org/95682-1/
+| 61 | Dengue |🟦 IgM antibody based test | Serum | Sample to be collected and sent to DH for ELISA | http://snomed.info/sct/409692005 |https://loinc.org/75377-2/ | Qualitative & Semi-Quantitative | Optical Density (OD) ratio|
+| 62 | Japanese encephalitis* |🟦 Sample collection  | Serum | Sample to be collected and sent to DH for ELISA | http://snomed.info/sct/710662006 |https://loinc.org/95682-1/
 | 63 | Scrub typhus* |🟦 IgM detection test | Serum | Sample to be collected and sent to DH for ELISA | - |https://loinc.org/33896-2/ |Binary | | Positive/Negative|
 | 64 | Tuberculosis | Sputum for AFB  | Sputum | Microscopy (ZN stain) | -|https://loinc.org/79424-8/ |
-| 65 | HIV | Pre- test counselling for HIV screening | - | - | - |https://loinc.org/75622-1/ | Binary | | Positive/Negative|
-| 66 | HIV | HIV test (Antibodies 1/2)  | Serum/Plasma/ Whole blood | RDT ELISA (sample to be sent to DH and above&) | - |https://loinc.org/75622-1/ | Binary | | Positive/Negative|
-| 67 | Hepatitis B | HBs Ag | Serum | RDT |http://snomed.info/sct/47758006 |https://loinc.org/65633-0/ | Binary | | Positive/Negative|
-| 68 | Hepatitis C | Anti-HCV  | Serum | RDT |http://snomed.info/sct/64411004 |https://loinc.org/72376-7/ | Binary | | Positive/Negative|
+| 65 | HIV | Pre- test counselling for HIV screening | - | - | http://snomed.info/sct/171121004 |https://loinc.org/75622-1/ | Binary | | Positive/Negative|
+| 66 | HIV | HIV test (Antibodies 1/2)  | Serum/Plasma/ Whole blood | RDT ELISA (sample to be sent to DH and above&) | http://snomed.info/sct/359796005 |https://loinc.org/75622-1/ | Binary | | Positive/Negative|
+| 67 | Hepatitis B | HBs Ag | Serum | RDT |http://snomed.info/sct/408825006 |https://loinc.org/65633-0/ | Binary | | Positive/Negative|
+| 68 | Hepatitis C | Anti-HCV  | Serum | RDT |http://snomed.info/sct/104375008 |https://loinc.org/72376-7/ | Binary | | Positive/Negative|
 
 
 ### NOTE :-
